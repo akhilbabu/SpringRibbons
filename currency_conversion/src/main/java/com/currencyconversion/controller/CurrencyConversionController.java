@@ -34,5 +34,12 @@ public class CurrencyConversionController
 		return bean;
 	}
 	
+	
+	@GetMapping("/test")
+	public String currencyConverter()
+	{
+		return "test";
+	}
+	
 
 }
